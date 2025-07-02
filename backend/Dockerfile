@@ -1,4 +1,4 @@
-FROM node:16.14.0
+FROM node:22.9.0
 
 RUN mkdir -p /app/backend
 
@@ -6,7 +6,7 @@ COPY package.json /app/backend/
 
 WORKDIR /app/backend
 
-RUN npm install  
+RUN npm install -g npm@11.4.2
 
 COPY . /app/backend
 
