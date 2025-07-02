@@ -1,21 +1,30 @@
-# To-Do App 
+# CI-CD-and-INFRA-SETUP-TASK
 
-A simple todo app which is made with MERN stack with user authentication & registration.
+This is a full-stack MERN (MongoDB, Express, React, Node.js) To-Do application containerized using Docker and deployed with CI/CD using GitHub Actions. This task is part of the DevOps Engineer assessment for CyberSapient Technologies.
 
-# User Screens
+## ✅ Features
 
-![](https://github.com/aswinrprasad/mern-todo-app/blob/main/Screenshots/Register.PNG?raw=true)
-![](https://github.com/aswinrprasad/mern-todo-app/blob/main/Screenshots/Login.PNG?raw=true)
-![](https://github.com/aswinrprasad/mern-todo-app/blob/main/Screenshots/HomeTodo.PNG?raw=true)
+- User Registration & Login
+- Add, Edit, Delete To-Do items
+- Mongo Express for DB inspection
+- GitHub Actions for CI/CD
+- Docker Compose for container orchestration
 
-# Run application 
+## 🐳 Containers Included
 
-- Pre-Requisite : Docker should be installed
-- Follow steps below : 
+- `MongoDB`
+- `Mongo Express`
+- `Node.js API Server`
+- `React Frontend`
 
-        $ docker-compose up -d 
-- Go to localhost:3000 to see the landing page
-- The Node API Server will be running at localhost:5000/api/users
-- After Testing : 
+## 🚀 Getting Started
 
-        $ docker-compose down
+### Prerequisites
+
+- Docker & Docker Compose installed
+
+### Run the application
+
+```bash
+docker-compose up -d
+
